@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="you_tube_web">
+        <div class="menu" >
+            <i class="fa-solid fa-bars" onclick="menuOnClick()"></i>
+           
+            <div class="menu_choices">
+                <i class="fa-solid fa-house"></i>
+                <h6>Home</h6>
+                <i class="bi bi-camera-video"></i>
+                <h6>Shorts</h6>
+                <i class="bi bi-collection-play"></i>
+                <h6>Subscriptions</h6>
+                <i class="bi bi-collection"></i>
+                <h6>Library</h6>
+            </div>
+        </div>
+        <div id="nav" class="nav">
+            <a href="#" class="sidebar-item"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#" class="sidebar-item"><i class="ri-wireless-charging-line"></i>Shorts</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-collection-play"></i>Subscription</a>
+                <div class="dummy-border"></div>
+                <a href="#" class="sidebar-item"><i class="bi bi-collection"></i>Library</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-clock-history"></i>History</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-file-play"></i>Your videos</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-clock"></i>Watch later</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-hand-thumbs-up"></i>Liked video</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-music-note-list"></i>Baby</a>
+                <div class="dummy-border"></div>
+                <h4>Subscriptions</h4>
+                <a href="#" class="sidebar-item"><img src="./sub1.jpg">Village Cooking Channel</a>
+                <a href="#" class="sidebar-item"><img src="./sub2.jpg"> infobells - Tamil </a>
+                <a href="#" class="sidebar-item"><img src="./sub3.jpg"> Priyanka Deshpande  </a>
+                <a href="#" class="sidebar-item"><img src="./sub4.jpg"> Theatre D  </a>
+                <a href="#" class="sidebar-item"><img src="./sub5.jpg"> Hussain Manimegalai ?</a>
+                <div class="dummy-border"></div>
+                <h4>Explore</h4>
+                <a href="#" class="sidebar-item"><i class="bi bi-bag"></i>Shopping</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-music-note"></i>Music</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-film"></i>Movies</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-broadcast"></i>Live</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-controller"></i>Gaming</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-newspaper"></i>News</a>
+                <a href="#" class="sidebar-item"><i class="fa-regular fa-medal"></i>Sports</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-lightbulb"></i>Learning</a>
+                <a href="#" class="sidebar-item"><i class="bi bi-cart"></i>Fashion&Beauty</a>
+            
+        </div>
+        <script>
+            function menuOnClick() {
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("nav").classList.add("fadeInLeft");
+  document.getElementById("nav").classList.add("fadeOutRight");
+}
+        </script>
+        <div class="you_tube">
+            <div class="you_tube_searchbar">
+                <div class="logo">
+                    <img src="./youtube-logo-png.png">
+                    <h3>YouTube</h3>
+                    <power>
+                        <h5>IN</h5>
+                    </power>
+                </div>
+                <div class="search-box">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search" />
+                        <button class="search"><i class="bi bi-search"></i></button>
+                    </div>
+                    <button class="mic"><i class="bi bi-mic-fill"></i></button>
+                </div>
+                <div class="profile-container">
+                    <i class="bi bi-camera-video"></i>
+                    <i class="bi bi-bell"></i>
+                    <power>
+                        <h5>9+</h5>
+                    </power>
+                    <div class="profile-box">
+                        <img src="images.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="options">
+                <div class="active_page">
+                    <p>All</p>
+                </div>
+                <div class="chip">
+                    <p>Mixes</p>
+                </div>
+                <div class="chip">
+                    <p>Computer programming</p>
+                </div>
+                <div class="chip">
+                    <p>Music</p>
+                </div>
+                <div class="chip">
+                    <p>Street food</p>
+                </div>
+                <div class="chip">
+                    <p>Tamil television drama</p>
+                </div>
+                <div class="chip">
+                    <p>Tamil cinema</p>
+                </div>
+                <div class="chip">
+                    <p>Live</p>
+                </div>
+                <div class="chip">
+                    <p>Cooking shows</p>
+                </div>
+                <div class="chip">
+                    <p>Cricket</p>
+                </div>
+                <div class="chip">
+                    <p>Recently uploaded</p>
+                </div>
+                <div class="chip">
+                    <p>Asian Music</p>
+                </div>
+                <div class="chip">
+                    <p>New to you</p>
+                </div>
+            </div>
+            <div class="video">
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/u_J33SCMVvw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile4.jpg">
+                        <div class="description1">
+                            <h4>Driving School Paavangal|Parithabangal</h4>
+                            <h5>Parithabangal<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>2.3M views.11 months ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/YvCTVvk78Kg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile2.jpg">
+                        <div class="description1">
+                            <h4>Fun shooting spot with Gautham Karthik & Pugazh-Irfan's View</h4>
+                            <h5>Irfan's View<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>1.3M views.2 days ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/-5iFVOsNm4g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile3.jpg">
+                        <div class="description1">
+                            <h4>Strawberry Ice Cream ASMR|how to make fresh strawberries to Ice Cream</h4>
+                            <h5>Ice Cream Rolls<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>1.4M views.3 months ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/lQkVdWMFnHo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile4.jpg">
+                        <div class="description1">
+                            <h4>Salesman Paavangal|Parithabangal</h4>
+                            <h5>Parithabangal<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>1.4M views.4 days ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/lUiwCDpdDSE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile1.jpg">
+                        <div class="description1">
+                            <h4>India Breaking Pakistan?|Tamil</h4>
+                            <h5>News | Madan Gowri | MG<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>450k views.10 days ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/5TfFVWWPw4s"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile5.jpg">
+                        <div class="description1">
+                            <h4>Classroom Sothanaigal 3|Micset</h4>
+                            <h5>Mic Set<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>6.4M views.1 month ago</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="dummyborder"></div>
+            <div class="s_logo">
+                <img src="./youtube-shorts-icon.png">
+                <h2>Shorts</h2>
+            </div>
+            <div class="shorts">
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/HC3Jzd6VoFM"
+                        title="#short nano tape ball in tamil / nano tape snowball in tamil #shorts #revasarts"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <div class="short_desc">
+                            <h4>#Trending Video</h4>
+                            <h5>615k Views</h5>
+                        </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/cAEocIOyePU"
+                        title="இத கடைசி வர பாருங்க! | Facts Ulagam_Facts In Minutes_Fact In Tamil_#shorts"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <div class="short_desc">
+                            <h4>#Trending Video</h4>
+                            <h5>515k Views</h5>
+                        </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/NYttDTspOu4" title="Magic Mixies Color Surprise Magic Cauldron ✨ #ad #shorts #asmr #MagicMixies #satisfyingvideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                    <div class="short_desc">
+                        <h4>#Trending Video</h4>
+                        <h5>615k Views</h5>
+                    </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/23edobQoTVA" title="Mystery Jelly Dig Popsicle Satisfying Video ASMR! #shorts #fidgets #asmr" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="short_desc">
+                        <h4>#Trending Video</h4>
+                        <h5>615k Views</h5>
+                    </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/cQRZja4tlYk"
+                        title="Make your own markers! #shorts #markermaker #crayola #asmr" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <div class="short_desc">
+                            <h4>#Trending Video</h4>
+                            <h5>615k Views</h5>
+                        </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/DTOFNKw52Lo"
+                        title="Experiment 19 தர்பூசணி Cutter🔪 ⁉️😇 #shorts #dicapscoop" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <div class="short_desc">
+                            <h4>#Trending Video</h4>
+                            <h5>615k Views</h5>
+                        </div>
+                </div>
+                <div class="short_video">
+                    <iframe width="220" height="400" src="https://www.youtube.com/embed/LxvrYTMnXtg"
+                        title="Bubble Charm Maker ❤️ Thankful for all of you! #asmr #charmmaker #crafts #shorts"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <div class="short_desc">
+                            <h4>#Trending Video</h4>
+                            <h5>615k Views</h5>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="dummyborder"></div>
+            <div class="video">
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/Pfbqjn3f9qc" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile6.jpg">
+                        <div class="description1">
+                            <h4>Venkatesh Bhat makes Bread Halwa</h4>
+                            <h5>Venkatesh Bhat's Idhayam Thotta<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>535k views.5 months ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/4urhA_5pRXc" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile7.jpg">
+                        <div class="description1">
+                            <h4>Me VS Mom || Cooking Trick You Should Know</h4>
+                            <h5>5-Minute Recipes<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>2.5M views.9 months ago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/tOVC9mivCAg" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="description">
+                        <img src="./profile1.jpg">
+                        <div class="description1">
+                            <h4>Elon Musk:Please Stop Chat GPT,It will Rule Us!-Madan Gowri</h4>
+                            <h5>Madan Gowri<i class="fa-solid fa-circle-check"></i></h5>
+                            <h5>344k views.5 days ago</h5>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>
